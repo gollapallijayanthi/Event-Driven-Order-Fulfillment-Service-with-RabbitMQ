@@ -14,7 +14,7 @@ This service consumes `OrderPlacedEvent`s, processes orders asynchronously, upda
 
 
 
-\## 📌 Key Features
+## 📌 Key Features
 
 
 
@@ -44,7 +44,7 @@ This service consumes `OrderPlacedEvent`s, processes orders asynchronously, upda
 
 
 
-\## 🏗️ Architecture Overview
+## 🏗️ Architecture Overview
 
 
 
@@ -94,7 +94,7 @@ Order Fulfillment Service
 
 
 
-\## 📂 Project Structure
+## 📂 Project Structure
 
 
 
@@ -152,11 +152,11 @@ Order Fulfillment Service
 
 
 
-\## 📬 Event Schemas
+## 📬 Event Schemas
 
 
 
-\### 🔹 OrderPlacedEvent (Incoming)
+### 🔹 OrderPlacedEvent (Incoming)
 
 
 
@@ -180,7 +180,7 @@ Order Fulfillment Service
 
 
 
-\### 🔹 OrderProcessedEvent (Outgoing)
+### 🔹 OrderProcessedEvent (Outgoing)
 
 
 
@@ -204,7 +204,7 @@ Order Fulfillment Service
 
 
 
-\## 🧠 Idempotency Strategy
+## 🧠 Idempotency Strategy
 
 
 
@@ -238,7 +238,7 @@ Duplicate event ignored | orderId=order-test-1
 
 
 
-\## ❌ Error Handling \& Retries
+## ❌ Error Handling \& Retries
 
 
 
@@ -264,7 +264,7 @@ Retry count is tracked via RabbitMQ headers.
 
 
 
-\## 🗄️ Database Schema
+## 🗄️ Database Schema
 
 
 
@@ -300,7 +300,7 @@ Seed data is provided in `db\_init/init.sql`.
 
 
 
-\## 🐳 Docker \& Docker Compose
+## 🐳 Docker \& Docker Compose
 
 
 
@@ -342,7 +342,7 @@ This starts:
 
 
 
-\##  Health Check
+##  Health Check
 
 
 
@@ -370,11 +370,11 @@ Response:
 
 
 
-\## 🧪 Testing Guide
+## 🧪 Testing Guide
 
 
 
-\### ✅ Unit Tests (Default)
+### ✅ Unit Tests (Default)
 
 
 
@@ -408,7 +408,7 @@ Tests run: 3, Failures: 0, Errors: 0
 
 
 
-\### 🔬 Integration Tests (Optional)
+### 🔬 Integration Tests (Optional)
 
 
 
@@ -416,7 +416,7 @@ Integration tests use \*\*Testcontainers\*\* (require Docker).
 
 
 
-\#### Enable Integration Profile
+#### Enable Integration Profile
 
 
 
@@ -446,7 +446,7 @@ What it tests:
 
 
 
-\##  RabbitMQ Manual Testing
+##  RabbitMQ Manual Testing
 
 
 
@@ -488,7 +488,7 @@ What it tests:
 
 
 
-\##  Logs You Should See
+##  Logs You Should See
 
 
 
@@ -510,7 +510,7 @@ Duplicate event ignored | orderId=order-test-1
 
 
 
-\##  Configuration \& Security
+##  Configuration \& Security
 
 
 
@@ -530,7 +530,7 @@ Duplicate event ignored | orderId=order-test-1
 
 
 
-\##  Final Notes
+##  Final Notes
 
 
 
